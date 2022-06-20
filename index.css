@@ -1,0 +1,375 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 550px;
+    height: 719px;
+    /* left: 762px;
+    top: 166px; */
+
+    background: #FFFFFF;
+}
+
+#top-container{
+    /* Rectangle 105 */
+
+
+    position: absolute;
+    width: 550px;
+    height: 190px;
+    left: 0px;
+    top: 0px;
+
+    background: #F5F5F5;
+}
+
+h1{
+    /* Heading */
+
+
+    position: absolute;
+    width: 354px;
+    height: 40px;
+    left: 98px;
+    top: 59px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #2B283A;
+}
+
+h2{
+    /* Supporting text */
+
+
+    position: absolute;
+    width: 408px;
+    height: 31px;
+    left: 71px;
+    top: 108px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    text-align: center;
+
+    color: #2B283A;
+}
+
+.service{
+    /* Button */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px;
+    background: #FFFFFF;
+    border: 1px solid #D5D4D8;
+    border-radius: 7px;
+    
+    /* text-sm/leading-4/font-medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    color: #4A4E74;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+#btn-wash{
+    position: absolute;
+    width: 143.17px;
+    height: 45px;
+    left: 38px;
+    top: 227px;
+}
+
+#btn-mow{
+    position: absolute;
+    width: 142.11px;
+    height: 45px;
+    left: 203.44px;
+    top: 227px;
+}
+
+#btn-weed{
+    position: absolute;
+    width: 143.17px;
+    height: 45px;
+    left: 367.83px;
+    top: 227px;
+}
+
+.head1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+
+
+    color: #918E9B;
+}
+
+#task{
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 39px;
+    top: 315px;
+}
+
+
+
+#total{
+    /* Supporting text */
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    left: 432px;
+    top: 319px;
+}
+
+#total-container{
+    position: absolute;
+    width: 471px;
+    height: 0px;
+    left: 39px;
+    top: 387px;
+    --cur-pos: 387px;
+}
+
+#total-tb{
+    /* Example */
+
+
+    position: relative;
+/* width: 105px;
+height: 28px;
+left: 39px;
+top: 398px; */
+}
+
+#notes{
+
+    position: relative;
+    width: 105px;
+    /* height: 28px;
+    left: 39px; */
+    top: 7px; 
+}
+
+#totamt{
+   
+    position: relative;
+    width: 105px;
+    left: 85px;
+    top: 7px;
+    
+}
+
+.line-el{
+    /* Line 23 */
+    
+    display: flex;
+
+    position: relative;
+    /* width: 471px;
+    height: 0px;
+    left: 39px;
+    top: 387px; */
+
+    border: 1px solid black;
+}
+
+
+#display-msg{
+    
+       /* Supporting text */
+
+
+    position: relative;
+    /* width: 218px;
+    height: 15px;
+    left: 38px;*/
+    width: 105px;
+    top: 11px; 
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+
+
+    color: #4A4E74;
+}
+
+#amount{
+    
+        /* Example */
+
+
+    position: relative;
+    width: 105px;
+    /* width: 105px;
+    height: 28px;*/
+    left: 87px;
+    top: 25px; 
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+
+    text-align: right;
+
+    color: #918E9B;
+}
+
+#send-invoice{
+    /* Button */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+
+    position: relative;
+    width: 473px;
+    /* height: 44px;
+    left: 38px;*/
+    top: 128px; 
+
+    background: #3770ED;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    border:none;
+}
+
+.btn-text{
+        /* Text */
+
+
+    position: static;
+    width: 98px;
+    height: 24px;
+    left: 202.5px;
+    top: 10px;
+
+    /* text-base/leading-6/font-medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* white */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+}
+
+.servInfo{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+
+    color: #4A4E74; 
+}
+
+.remove{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    /* identical to box height, or 250% */
+
+
+    color: #918E9B;
+}
+
+.servCost{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 20px;
+    /* or 83% */
+
+    text-align: right;
+    color: #918E9B;
+    
+}
+
+#invoice-record{
+    /* Supporting text */
+
+
+    position: absolute;
+    width: 97px;
+    height: 21px;
+    left: 39px;
+    top: 353px;
+}
+
+#invoice-record{
+    border-collapse: separate;
+    border-spacing: 0 24px;
+}

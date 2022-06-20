@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="top-container">
+            <h1 class="heading">Invoice creator</h1>
+            <h2 class="sub-heading">Thanks for choosing GoodCorp, LLC!</h2>
+        </div>
+        <div id="bill-container">
+            <button id="btn-wash" class="service">Wash Car: $10</button>
+            <button id="btn-mow" class="service">Mow Lawn: $20</button>
+            <button id="btn-weed" class="service">Pull Weeds: $30</button>
+            <table id="invoice-tb" style="width:90%">
+                <tr>
+                    <th id="task" class="head1" align="left" >TASK</th>
+                    <th id="total" class="head1" align="right">TOTAL</th>
+                </tr>
+                <table id="invoice-record" style="width:86%" border="0">
+                </table>
+            </table>
+        </div>
+        
+        <div id="total-container" >
+            <span id="line" class="line-el"></span>
+            <table id="total-tb" style="width:83%" border="0">
+                <tr>
+                    <th id="notes" class="head1" align="left">NOTES</th>
+                    <th id="totamt" class="head1" align="right">TOTAL AMOUNT</th>
+                </tr>
+                <tr>
+                    <td id="display-msg" style="visibility:hidden">We accept cash, credit card, or PayPal</td>
+                    <td id="amount" align="right">$0</td>
+                </tr>
+            </table>
+            <button id="send-invoice"><i class="fa-solid fa-envelope" style="color:white"></i><span class = "btn-text">Send Invoice</span></button>
+        </div>
+        <script src="index.js"></script>
+        <script src="https://kit.fontawesome.com/c65f0871f3.js" crossorigin="anonymous"></script>
+    </body>
+</html>
